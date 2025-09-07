@@ -1,6 +1,10 @@
 # Save & Close InDesign panel
 InDesign utility panel for saving and closing documents.
 
+## Panel Design
+https://scriptui.joonas.me/
+Copy and paste JSON data into web site
+
 ## Installation
 Follow Adobe instructions: [Adobe - Scripting in InDesign](https://helpx.adobe.com/indesign/using/scripting.html)
 
