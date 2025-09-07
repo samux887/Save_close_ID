@@ -1,0 +1,228 @@
+{
+  "activeId": 11,
+  "items": {
+    "item-0": {
+      "id": 0,
+      "type": "Dialog",
+      "parentId": false,
+      "style": {
+        "enabled": true,
+        "varName": "win_save_close",
+        "windowType": "Dialog",
+        "creationProps": {
+          "su1PanelCoordinates": false,
+          "maximizeButton": false,
+          "minimizeButton": false,
+          "independent": false,
+          "closeButton": true,
+          "borderless": false,
+          "resizeable": false
+        },
+        "text": "-----",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "margins": 16,
+        "orientation": "column",
+        "spacing": 10,
+        "alignChildren": [
+          "center",
+          "top"
+        ]
+      }
+    },
+    "item-4": {
+      "id": 4,
+      "type": "Panel",
+      "parentId": 0,
+      "style": {
+        "enabled": true,
+        "varName": "p_r_button",
+        "creationProps": {
+          "borderStyle": "etched",
+          "su1PanelCoordinates": false
+        },
+        "text": "Azione:",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "margins": 15,
+        "orientation": "column",
+        "spacing": 15,
+        "alignChildren": [
+          "left",
+          "center"
+        ],
+        "alignment": null
+      }
+    },
+    "item-5": {
+      "id": 5,
+      "type": "RadioButton",
+      "parentId": 4,
+      "style": {
+        "enabled": true,
+        "varName": "r_close",
+        "text": "Chiudi tutto (non salva)",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-6": {
+      "id": 6,
+      "type": "RadioButton",
+      "parentId": 4,
+      "style": {
+        "enabled": true,
+        "varName": "r_save",
+        "text": "Salva tutto (non chiude)",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-7": {
+      "id": 7,
+      "type": "RadioButton",
+      "parentId": 4,
+      "style": {
+        "enabled": true,
+        "varName": "r_save_close",
+        "text": "Salva e chiudi",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-8": {
+      "id": 8,
+      "type": "RadioButton",
+      "parentId": 4,
+      "style": {
+        "enabled": true,
+        "varName": "r_selection",
+        "text": "Seleziona file",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-10": {
+      "id": 10,
+      "type": "Progressbar",
+      "parentId": 0,
+      "style": {
+        "enabled": true,
+        "varName": "pb",
+        "preferredSize": [
+          177,
+          7
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-11": {
+      "id": 11,
+      "type": "Divider",
+      "parentId": 0,
+      "style": {
+        "enabled": true,
+        "varName": "div_0"
+      }
+    },
+    "item-12": {
+      "id": 12,
+      "type": "Group",
+      "parentId": 0,
+      "style": {
+        "enabled": true,
+        "varName": "g_buttons",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "margins": 0,
+        "orientation": "row",
+        "spacing": 10,
+        "alignChildren": [
+          "left",
+          "center"
+        ],
+        "alignment": null
+      }
+    },
+    "item-13": {
+      "id": 13,
+      "type": "Button",
+      "parentId": 12,
+      "style": {
+        "enabled": true,
+        "varName": "cancel",
+        "text": "Annulla",
+        "justify": "center",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    },
+    "item-14": {
+      "id": 14,
+      "type": "Button",
+      "parentId": 12,
+      "style": {
+        "enabled": true,
+        "varName": "ok",
+        "text": "-----",
+        "justify": "center",
+        "preferredSize": [
+          0,
+          0
+        ],
+        "alignment": null,
+        "helpTip": null
+      }
+    }
+  },
+  "order": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "settings": {
+    "importJSON": true,
+    "indentSize": false,
+    "cepExport": false,
+    "includeCSSJS": true,
+    "showDialog": true,
+    "functionWrapper": false,
+    "afterEffectsDockable": false,
+    "itemReferenceList": "None"
+  }
+}
